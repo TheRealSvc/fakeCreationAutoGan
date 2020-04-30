@@ -59,5 +59,5 @@ def create_npy_from_image(images_folder, outdir , output_prefix, common_res):
 # note: common_res and paths are currently not parameterized --> need to modify here
 if __name__ == '__main__':
     common_res = {'real_std_128x128': (128, 128), 'real_std_256x256': (256, 256), 'real_std_640x480': (640, 480), 'real_std_800x600': (800, 600), 'real_std_1024x768': (1024, 768),'real_std_1600x1200': (1600, 1200)}
-    create_npy_from_image(images_folder="E:/myAWS/photographSelection_real/mystuff/", outdir="E:/myAWS/photographSelection_real/standard/", output_prefix="train1", common_res=common_res)
+    create_npy_from_image(images_folder="E:/myAWS/photographSelection_real/selection/", outdir="E:/myAWS/photographSelection_real/standard/", output_prefix="samp1", common_res=common_res)
 
